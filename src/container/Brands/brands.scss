@@ -1,0 +1,30 @@
+.brands__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    .app__feature-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 900px;
+    }
+    
+    .brands__headtext {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .brands__ptext {
+        text-align: center;
+        color: #fff;
+    
+        span {
+            color: #ffff00;
+        }
+    }
+}

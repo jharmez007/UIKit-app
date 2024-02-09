@@ -1,0 +1,25 @@
+.button__container {
+
+    button {
+        background: #000;
+        border-radius: 5px;
+        padding: 5px 15px;
+        border: 1px solid #ffff00;
+        transition: all 0.3s ease-in-out;
+       
+        p ,
+        div
+        {
+            color: #ffff00;
+            font-weight: 700;
+        }
+
+        &:hover {
+            background: #ffff00;
+            p,
+            div {
+                color: #000;
+            }
+        }
+    }
+}

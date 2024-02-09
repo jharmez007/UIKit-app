@@ -1,0 +1,60 @@
+.section__padding {
+    padding: 4rem 6rem;
+
+    @media screen and (max-width: 700px) {
+        .section__padding {
+            padding: 4rem;
+        }
+    }
+    
+    @media screen and (max-width: 550px) {
+        .section__padding {
+            padding: 4rem 2rem;
+        }
+    }
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+
+    @media screen and (max-width: 700px) {
+        .section__margin {
+            margin: 4rem;
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        .section__margin {
+            margin: 4rem 2rem;
+        }
+    }
+}
+
+.app__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__container {
+    width: 100%;
+    min-height: 100vh;
+  
+    display: flex;
+    flex-direction: row;
+}
+
+.app__headtext {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.p-text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #757070;
+}
+  

@@ -1,0 +1,92 @@
+.contact__text {
+  font-weight: 700;
+  color: #fff;
+}
+
+.contact__form {
+  width: 60%;
+  margin: 1rem 2rem;
+
+  div {
+    width: 100%;
+    margin: 0.75rem 0;
+    cursor: pointer;
+    background-color: #D9D9D9;
+
+    input,
+      textarea {
+        width: 100%;
+        padding: 0.95rem;
+        border: none;
+        background-color: #D9D9D9;
+  
+        font-family: var(--font-base);
+        color: #757070;
+        outline: none;
+      }
+  
+      textarea {
+        min-height: 170px;
+      }
+  }
+
+  .contact__form-first_lastnames {
+    padding: 0px;
+    flex-wrap: wrap;
+    background-color: #000;
+
+    div {
+      margin: 0px;
+    }
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      width: 100%;
+      margin: 0.75rem 0;
+
+      div:first-child {
+        margin-bottom: 0.75rem;
+      }
+    }
+
+    @media screen and (max-width: 646px) {
+      flex-direction: column;
+      width: 100%;
+      margin: 0.75rem 0;
+
+      div:first-child {
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+
+  button {
+    padding: 1rem 4rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #91D2F7;
+
+    font-weight: 700;
+    color: #000;
+    outline: none;
+    margin: 2rem 0 0 0;
+    font-family: var(--font-base);
+
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    cursor: pointer;
+
+    &:hover {
+      background-color: #2430af;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
